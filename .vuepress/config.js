@@ -1,6 +1,6 @@
 module.exports = {
   "title": "小叶子Small_leaf",
-  "description": "这个人很懒，没有简介",
+  "description": "少女折寿中……",
   "dest": "dist",
   "head": [
     [
