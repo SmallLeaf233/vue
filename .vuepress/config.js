@@ -46,6 +46,16 @@ module.exports = {
         "icon": "reco-date"
       },
       {
+        "text":"实用工具",
+        "icon":"reco-other",
+        "items":[
+          {"text":"图片格式转换","link":"https://www.aconvert.com/cn/"},
+          {"text":"AI抠图","link":"https://www.remove.bg/"},
+          {"text":"路过图床","link":"https://imgtu.com/"},
+          {"text":"优客API","link":"https://api.iyk0.com/"}
+        ]
+      },
+      {
         "text": "关于",
         "link": "/about/",
         "icon": "reco-account"
