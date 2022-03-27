@@ -34,10 +34,10 @@ sticky: 1
 
 ### 文档
 
-[VuePress](https://v1.vuepress.vuejs.org/zh/):Vue 驱动的静态网站生成器<br>
-[vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/):一款简洁而优雅的 vuepress 博客 & 文档 主题<br>
-[Vercel](https://vercel.com/):免费的静态托管平台<br>
-[zealsay](https://www.zealsay.com/):大佬的个人博客，我抄的就是他的(｀・ω・´)
+[VuePress](https://v1.vuepress.vuejs.org/zh/)：Vue 驱动的静态网站生成器<br>
+[vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)：一款简洁而优雅的 vuepress 博客 & 文档 主题<br>
+[Vercel](https://vercel.com/)：免费的静态托管平台<br>
+[zealsay](https://www.zealsay.com/)：大佬的个人博客，我抄的就是他的(｀・ω・´)
 
 ### 视频
 [【bilibili】6分钟教你不用服务器搭建个人博客 | 小白可懂 | Vercel | VuePress](https://www.bilibili.com/video/BV17Q4y1Y7LF?share_source=copy_web)<br>
