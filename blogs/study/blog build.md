@@ -1,7 +1,7 @@
 ---
 title: 关于博客的搭建
 date: 2022-03-20
-cover: https://s1.ax1x.com/2022/03/22/qMu0GF.jpg
+cover: http://124.222.167.20/i/2022/03/29/6242d61c4e707.jpg
 tags:
  - 学习
 categories:
@@ -12,7 +12,7 @@ sticky: 1
 
 博客搭建花了我一个周末，见识了数不清的报错，最后能成功感觉有很大的运气成分。
 
-<img src="https://s1.ax1x.com/2022/03/23/q1vn9x.jpg" width = "200" height = "200">
+<img src="http://124.222.167.20/i/2022/03/29/6242d5bc04931.jpeg" width = "200" height = "200">
 
 我一开始用的是主题的默认样式，虽然默认样式也很简洁美观，但是我想搞一些更个性化的东西。
 

@@ -1,7 +1,7 @@
 ---
 title: 阳台
 date: 2022-03-24
-cover: https://s1.ax1x.com/2022/03/23/q3SbPs.jpg
+cover: http://124.222.167.20/i/2022/03/29/6242d5be1aa09.jpeg
 tags:
  - 往事
 categories:

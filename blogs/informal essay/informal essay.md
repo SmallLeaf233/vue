@@ -1,7 +1,7 @@
 ---
 title: 随笔
 date: 2022-03-20
-cover: https://s1.ax1x.com/2022/03/21/qns2ut.png
+cover: http://124.222.167.20/i/2022/03/29/6242d47234f94.png
 tags:
  - else
 categories:
