@@ -1,7 +1,7 @@
 ---
 title: 能回忆起的最早的事
 date: 2022-03-23
-cover: http://124.222.167.20/i/2022/03/29/6242d61c46571.jpeg
+cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/童年.JPEG
 tags:
  - 往事
 categories:

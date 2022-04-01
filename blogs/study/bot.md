@@ -1,7 +1,7 @@
 ---
 title: 关于QQ机器人
 date: 2022-03-27
-cover: http://124.222.167.20/i/2022/03/29/6242d5bd041cc.jpeg
+cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/关于qq机器人.jpeg
 tags:
  - 学习
 categories:
