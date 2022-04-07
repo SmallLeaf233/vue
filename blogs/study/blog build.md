@@ -3,7 +3,8 @@ title: 关于博客的搭建
 date: 2022-03-20
 cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/关于博客搭建.JPG
 tags:
- - 学习
+ - vue
+ - 博客
 categories:
  - 学习
 sticky: 1

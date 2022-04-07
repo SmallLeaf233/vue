@@ -3,7 +3,10 @@ title: 关于QQ机器人
 date: 2022-03-27
 cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/关于qq机器人.jpeg
 tags:
- - 学习
+ - python
+ - QQ机器人
+ - nonebot2
+ - go-cqhttp
 categories:
  - 学习
 ---
