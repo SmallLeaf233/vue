@@ -51,8 +51,14 @@ module.exports = {
         "items":[
           {"text":"图片格式转换","link":"https://www.aconvert.com/cn/"},
           {"text":"AI抠图","link":"https://www.remove.bg/"},
-          {"text":"路过图床","link":"https://imgtu.com/"},
-          {"text":"优客API","link":"https://api.iyk0.com/"}
+          {"text":"优客API","link":"https://api.iyk0.com/"},
+          {
+            "text":"以图搜图","items":[
+              {"text":"SauceNAO","link":"https://saucenao.com/"},
+              {"text":"Ascii2d","link":"https://ascii2d.net/"},
+              {"text":"Yandex","link":"https://yandex.ru/images/touch/"}
+            ]
+          }
         ]
       },
       {
