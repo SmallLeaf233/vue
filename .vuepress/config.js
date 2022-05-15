@@ -2,6 +2,14 @@ module.exports = {
   "title": "小叶子Small_leaf",
   "description": "少女折寿中……",
   "dest": "dist",
+  "plugins": [    //插件
+    [
+      '@maginapp/vuepress-plugin-katex',
+      {
+        delimiters: 'dollars'
+      },
+    ],
+  ],
   "head": [
     [
       "link",

@@ -8,6 +8,7 @@
     "upcdn": "vuepress build . && node ./scripts/upcdn.js"
   },
   "devDependencies": {
+    "@maginapp/vuepress-plugin-katex": "^1.0.11",
     "glob": "^7.1.6",
     "mime": "^2.4.4",
     "path": "^0.12.7",
