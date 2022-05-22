@@ -8,7 +8,7 @@ categories:
  - 学习
 ---
 
-# 第一册
+# **第一册**
 
 ## 集合
 
@@ -21,22 +21,25 @@ Q = {整数与分数}&ensp;(有理数集)
 R = {数轴上所有点对应的数}&ensp;(实数集)
 
 
-
 属于：$\in$<br>不属于：$\notin$
 
 子集：$\subseteq$<br>真子集：$\subsetneqq$
 
 ## 指数函数与对数函数
 
-根式：$a^{-n}=\frac{1}{a^n}$
+### 根式：
+$a^{-n}=\frac{1}{a^n}$
 
-**分数指数幂：**<br>$a^{\frac{m}{n}}=\sqrt[n]{a^m}$&ensp;&ensp;$(a^{\frac{1}{n}}=\sqrt[n]a)$<br>$a^{-\frac{m}{n}}=\frac{1}{a^\frac{m}{n}}$
+### 分数指数幂：
+$a^{\frac{m}{n}}=\sqrt[n]{a^m}$&ensp;&ensp;$(a^{\frac{1}{n}}=\sqrt[n]a)$<br>$a^{-\frac{m}{n}}=\frac{1}{a^\frac{m}{n}}$
 
-**有理数指数幂运算法则：**<br>$a^m\cdot a^n=a^{m+n}$<br>$(a^m)^n=a^{mn}$<br>$(ab)^n=a^n\cdot b^n$ 
+### 有理数指数幂运算法则：
+$a^m\cdot a^n=a^{m+n}$<br>$(a^m)^n=a^{mn}$<br>$(ab)^n=a^n\cdot b^n$ 
 
-**对数：**<br>$a^b=N\Leftrightarrow\log_aN=b$&ensp;（可以理解为b和N互换了位置）<br>$\log_{10}N=\lg N$<br>$log_e N=ln N$&ensp;（e=2.71828……）
+### 对数：
+$a^b=N\Leftrightarrow\log_aN=b$&ensp;（可以理解为b和N互换了位置）<br>$\log_{10}N=\lg N$<br>$log_e N=ln N$&ensp;（e=2.71828……）
 
-# 第二册
+# **第二册**
 
 ## 第六章 三角函数
 
@@ -50,42 +53,93 @@ R = {数轴上所有点对应的数}&ensp;(实数集)
 
 ## 第七章 平面向量
 
-**向量的加减：**<br>
+### 向量的加减：
 加法：$\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$<br>
-减法：$\overrightarrow{OA}+\overrightarrow{OB}=\overrightarrow{BA}$
-在坐标中：<br>
+减法：$\overrightarrow{OA}+\overrightarrow{OB}=\overrightarrow{BA}$<br>
+**在坐标中**：<br>
 $a+b=(x_1+x_2,y_1+y_2)$<br>
 $a-b=(x_1-x_2,y_1-y_2)$<br>
 $\overrightarrow{AB}=(x_2-x_1,y_2-y_1)$
 
-**判断向量是否平行：**<br>
-$\overrightarrow{a}=\lambda\overrightarrow{b}$ <br>
-$x_1y_2-x_2y_1=0$<br>
-$\overrightarrow{a}\cdot\overrightarrow{b}=|\overrightarrow{a}|\cdot|\overrightarrow{b}|\cdot\cos\theta$
+### 平面向量位置关系：
+**平行（共线）：**<br>
+$\overrightarrow{a}=\lambda\overrightarrow{b}\Leftrightarrow x_1y_2-x_2y_1=0$<br>
+**垂直：**<br>
+$\overrightarrow{a}\cdot\overrightarrow{b}=0\Leftrightarrow x_1x_2-y_1y_2=0$
 
-**内积坐标表示：**<br>$\overrightarrow{a}\cdot\overrightarrow{b}=x_1x_2+y_1y_2$
+### 向量的内积：
+$\overrightarrow{a}\cdot\overrightarrow{b}=|\overrightarrow{a}|\cdot|\overrightarrow{b}|\cdot\cos\theta$<br>
+**内积坐标表示：**<br>
+$\overrightarrow{a}\cdot\overrightarrow{b}=x_1x_2+y_1y_2$
 
-**两向量夹角的余弦值：**
-
+### 两向量夹角的余弦值：
 $$\cos\theta=\frac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}|\cdot|\overrightarrow{b}|}=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$$
 
-AB两点之间的距离
+### AB两点之间的距离：
+$d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
 
+### AB中点坐标：
+$(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$
 
+## 第八章 直线与圆
 
-## 第八章 直线与园
+### 直线的倾斜角：
 
 一条与x轴相交的直线，逆时针方向与x轴形成的角，叫做直线的**倾斜角**
 
-**直线的斜率：**<br>$k=\tan\alpha$<br>
-在坐标中：<br>$k=\frac{y_2-y_1}{x_2-x_1}$
+### 直线的斜率：
+$k=\tan\alpha$<br>
+**在坐标中：**<br>
+$k=\frac{y_2-y_1}{x_2-x_1}$
 
-**直线方程：**<br>
-点斜式：<br>
+### 直线方程：
+**点斜式方程：**<br>
 $\frac{y-y_1}{x-x_1}=k\Rightarrow y-y_1=k(x-x_1)$&ensp;（已知斜率和点）<br>
-斜截式：<br>
+**斜截式方程：**<br>$y-b=k(x-0)\Rightarrow y=kx+b$&ensp;（k是斜率，b是直线在y轴上的截距）<br>
+**一般式方程：**<br>
+$Ax+By+C=0$
 
+### 两直线位置关系：
+**两条直线有斜率且不重合，如果斜率相等，则<u>两直线平行</u>**<br>
+$l_1\ /\mskip-4mu/\ l_2\Leftrightarrow k_1=k_2\ ,\ b_1\not=b_2$
 
+解法一：$\frac{A_2}{A_1}=\frac{B_2}{B_1}\not=\frac{C_2}{C_1}$<br>
+解法二：将方程化成斜截式，比较$k_1=k_2\ ,\ b_1\not=b_2$
+
+**两条直线都有斜率，如果斜率互为负倒数，则<u>两直线垂直</u>**<br>
+$l_1\perp l_2\Leftrightarrow k_1=-\frac{1}{k_2}\Leftrightarrow k_1k_2=-1$
+
+$A_1A_2+B_1B_2=0$
+
+**两条直线相交条件：**<br>
+$k_1\not=k_2\ ,\ \frac{A_2}{A_1}\not=\frac{B_2}{B_1}$
+
+**两直线交点坐标：**<br>
+解：
+
+$$\left\{
+\begin{aligned}
+A_1x+B_1y+C_1=0 \\
+A_2x+B_2y+C_2=0
+\end{aligned}
+\right.$$
+
+**点到直线的距离：**
+
+$$d=\frac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}$$
+
+**两平行线的距离：**
+
+$$d=\frac{|C_2-C_1|}{\sqrt{A^2+B^2}}$$
+
+### 圆：
+
+**圆的标准方程：**<br>
+圆心为$A(a,b)\ ,\ P(x,y)$是圆上任意一点<br>
+$(x-a)^2+(y-b)^2=r^2$
+
+**直线与圆位置关系：**<br>
+用点到直线方程求直线到圆心的距离
 
 ::: details
 一开始我只是想把数学笔记写到个人博客上<br>
