@@ -1,7 +1,7 @@
 ---
 title: 数学复习
 date: 2022-05-15
-cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/maths.jpeg
+cover: https://s2.loli.net/2022/06/05/P1U3Ffwv9zWg8K4.jpg
 tags:
  - 数学
 categories:
@@ -49,7 +49,7 @@ $a^b=N\Leftrightarrow\log_aN=b$&ensp;（可以理解为b和N互换了位置）<b
 | $\cos\alpha$ |     1     | $\frac{\sqrt3}{2}$ | $\frac{\sqrt2}{2}$ |   $\frac{1}{2}$    |     0      |   $-\frac{1}{2}$   |
 | $\tan\alpha$ |     0     | $\frac{\sqrt3}{3}$ |         1          |      $\sqrt3$      |   不存在   |     $-\sqrt3$      |
 
-![函数](https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/函数.JPG)
+![函数](https://s2.loli.net/2022/06/05/9SLcmxVObnpsh7g.jpg)
 
 ## 第七章 平面向量
 

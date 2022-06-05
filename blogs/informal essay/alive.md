@@ -1,7 +1,7 @@
 ---
 title: 活着
 date: 2022-04-06
-cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/活着.jpeg
+cover: https://s2.loli.net/2022/06/05/cDs9t2LZaP7vISF.jpg
 tags:
  - 思考人生
 categories:

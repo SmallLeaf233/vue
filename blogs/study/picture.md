@@ -1,7 +1,7 @@
 ---
 title: 图床
 date: 2022-04-02
-cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/90068828_p0.png
+cover: https://s2.loli.net/2022/06/05/sILpj2oDmSTeYbt.png
 tags:
  - 学习
 categories:
@@ -20,7 +20,7 @@ categories:
 
 就像一开始我使用的[路过图床](https://imgtu.com/)，还没过几天，就有几张图片没了。
 
-![路过图床](https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/路过.PNG)
+![路过图床](https://s2.loli.net/2022/06/05/jdQGZcsXf4KyoH3.png)
 
 ## 自建图床
 
@@ -32,13 +32,13 @@ categories:
 
 先是在服务器上安装了宝塔面板，然后按照文档要求配置运行环境并安装。因为我没有域名（域名备案要等到18岁，这18岁等得我好苦啊！），使用直接用IP当的域名。用IP当域名不安全，而且没法使用SSL证书，但是能用。于是我将图片上传上去，在博客中改了链接，然后兴致冲冲的打开博客一看：
 
-![图炸了](https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/图炸了.PNG)
+![图炸了](https://s2.loli.net/2022/06/05/PkxFpC9haUOKuTb.png)
 
 ？？？？？？
 
 在手机上试试？
 
-<img src="https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/手机显示.png" width = "208" height = "448">
+<img src="https://s2.loli.net/2022/06/05/kRoyG1QESWBwMCn.png" width = "208" height = "448">
 
 欸，能显示，换个手机看看，欸，也能显示。
 

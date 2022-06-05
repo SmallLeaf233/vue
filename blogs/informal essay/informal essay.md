@@ -1,7 +1,7 @@
 ---
 title: 随笔
 date: 2022-03-20
-cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/随笔.png
+cover: https://s2.loli.net/2022/06/05/kzDVJIr26aQHmSU.png
 tags:
  - else
 categories:

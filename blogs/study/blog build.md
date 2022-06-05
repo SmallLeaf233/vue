@@ -1,7 +1,7 @@
 ---
 title: 关于博客的搭建
 date: 2022-03-20
-cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/关于博客搭建.JPG
+cover: https://s2.loli.net/2022/06/05/mYrvhFgc8TjRfl6.jpg
 tags:
  - vue
  - 博客
@@ -13,7 +13,7 @@ sticky: 1
 
 博客搭建花了我一个周末，见识了数不清的报错，最后能成功感觉有很大的运气成分。
 
-<img src="https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/一杯茶一包烟.jpeg" width = "200" height = "200">
+<img src="https://s2.loli.net/2022/06/05/coTLgUekQmEjq93.jpg" width = "200" height = "200">
 
 我一开始用的是主题的默认样式，虽然默认样式也很简洁美观，但是我想搞一些更个性化的东西。
 

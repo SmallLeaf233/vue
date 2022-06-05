@@ -1,7 +1,7 @@
 ---
 title: 阳台
 date: 2022-03-24
-cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/阳台.jpeg
+cover: https://s2.loli.net/2022/06/05/OlqWh69YKNy7PFw.jpg
 tags:
  - 往事
 categories:

@@ -1,7 +1,7 @@
 ---
 title: 关于QQ机器人
 date: 2022-03-27
-cover: https://cdn.jsdelivr.net/gh/SmallLeaf233/blog-pic/img/关于qq机器人.jpeg
+cover: https://s2.loli.net/2022/06/05/6ECniZuMzQ7qtGw.jpg
 tags:
  - python
  - QQ机器人
