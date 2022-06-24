@@ -39,9 +39,43 @@ $a^m\cdot a^n=a^{m+n}$<br>$(a^m)^n=a^{mn}$<br>$(ab)^n=a^n\cdot b^n$
 ### 对数：
 $a^b=N\Leftrightarrow\log_aN=b$&ensp;（可以理解为b和N互换了位置）<br>$\log_{10}N=\lg N$<br>$log_e N=ln N$&ensp;（e=2.71828……）
 
+**对数的运算法则：**<br>
+$\log_aMN=\log_aM+log_aN$<br>
+$\log_a\frac{M}{N}=\log_aM-log_aN$<br>
+$\log_aM^n=n\log_aM$<br>
+**对数的换底公式：**<br>
+$\log_bN=\frac{\log_aN}{\log_ab}$<br>
+通常用常用对数进行换底，比如 $\log_{10}$<br>
+$\log_8 9\times\log_{27}32=\frac{\lg9}{\lg8}\times\frac{\lg32}{\lg27}=\frac{2\lg3}{3\lg2}\times\frac{5\lg2}{3\lg3}=\frac{2}{3}\times\frac{5}{3}=\frac{10}{9}$
+
 # **第二册**
 
+## 第五章 数列
+### 等差数列：
+**通项公式：**<br>
+$a_n=a_1+(n-1)d$ <br>
+**中项：**<br>
+$A=\frac{a+b}{2}$ <br>
+**前n项和公式：**<br>
+$S_n=\frac{n(a_1+a_n)}{2}$&ensp;（就是小学背过的：首项加末项乘以项数除以二）<br>
+
+### 等比数列：
+**通项公式：**<br>
+$a_n=a_1q^{n-1}$<br>
+**中项：**<br>
+$G=\pm\sqrt{ab}$<br>
+**前n项和公式：**<br>
+$S_n=\frac{a_1(1-q^n)}{1-q}$
+
 ## 第六章 三角函数
+### 任意角的三角函数：
+<img align="right" src="https://s2.loli.net/2022/06/24/A9NwXrQUHR4SWku.png" alt="三角函数" style="zoom:50%;" />
+
+**正弦：**$\sin \theta=\frac{y}{r}$<br>
+**余弦：**$\cos \theta=\frac{x}{r}$<br>
+**正切：**$\tan \theta=\frac{y}{x}$
+
+### 特殊角的三角函数值：
 
 |              | $0^\circ$ |     $30^\circ$     |     $45^\circ$     |     $60^\circ$     | $90^\circ$ |    $120^\circ$     |
 | :----------: | :-------: | :----------------: | :----------------: | :----------------: | :--------: | :----------------: |
@@ -50,6 +84,8 @@ $a^b=N\Leftrightarrow\log_aN=b$&ensp;（可以理解为b和N互换了位置）<b
 | $\tan\alpha$ |     0     | $\frac{\sqrt3}{3}$ |         1          |      $\sqrt3$      |   不存在   |     $-\sqrt3$      |
 
 ![函数](https://s2.loli.net/2022/06/05/9SLcmxVObnpsh7g.jpg)
+
+
 
 ## 第七章 平面向量
 
@@ -72,11 +108,15 @@ $\overrightarrow{a}\cdot\overrightarrow{b}=|\overrightarrow{a}|\cdot|\overrighta
 **内积坐标表示：**<br>
 $\overrightarrow{a}\cdot\overrightarrow{b}=x_1x_2+y_1y_2$
 
+### 向量的模长：
+
+$|\overrightarrow{a}|=\sqrt{x^2+y^2}$
+
 ### 两向量夹角的余弦值：
 $$\cos\theta=\frac{\overrightarrow{a}\cdot\overrightarrow{b}}{|\overrightarrow{a}|\cdot|\overrightarrow{b}|}=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$$
 
 ### AB两点之间的距离：
-$d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
+$d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$&ensp;（其实就是向量的模长)
 
 ### AB中点坐标：
 $(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$
@@ -138,8 +178,22 @@ $$d=\frac{|C_2-C_1|}{\sqrt{A^2+B^2}}$$
 圆心为$A(a,b)\ ,\ P(x,y)$是圆上任意一点<br>
 $(x-a)^2+(y-b)^2=r^2$
 
+**圆的一般方程化为标准方程（配方法）：**<br>
+$x^2+y^2-2x+4y-11=0$<br>
+$(x-1)^2+(y+2)^2-1-4-11=0$<br>
+$(x-1)^2+(x+2)^2=16$<br>
+
 **直线与圆位置关系：**<br>
 用点到直线方程求直线到圆心的距离
+
+# **第三册**
+## 第十三章 立体几何
+
+### 球：
+**球的体积：**<br>
+$V=\frac{4}{3}\pi R^3$<br>
+**球的表面积：**<br>
+$S=4\pi R^2$<br>
 
 ::: details
 一开始我只是想把数学笔记写到个人博客上<br>
