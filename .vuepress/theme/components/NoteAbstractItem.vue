@@ -5,7 +5,7 @@
     <i v-if="item.frontmatter.sticky" class="iconfont reco-sticky"></i>
     <div class="cover">
       <img class="cover-img" :src="item.frontmatter.cover || this.$themeConfig.covers[item.title%7+1]
-      || 'https://iw233.cn/API/pc.php'" :alt="item.title"/>
+      || 'https://iw233.cn/api.php?sort=pc'" :alt="item.title"/>
     </div>
     <div class="info">
       <div class="title">

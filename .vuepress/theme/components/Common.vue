@@ -161,10 +161,10 @@
         return this.$themeConfig.keyPage && this.$themeConfig.keyPage.absoluteEncryption === true
       },
       cover() {
-        return this.$themeConfig.covers[new Date().getDay()] || "https://iw233.cn/API/pc.php"
+        return this.$themeConfig.covers[new Date().getDay()] || "https://iw233.cn/api.php?sort=pc"
       },
       pageCover() {
-        return this.$page.frontmatter.cover || this.$themeConfig.covers[new Date().getDay()] || "https://iw233.cn/API/pc.php"
+        return this.$page.frontmatter.cover || this.$themeConfig.covers[new Date().getDay()] || "https://iw233.cn/api.php?sort=pc"
       },
       shouldShowNavbar() {
         const {themeConfig} = this.$site
@@ -332,12 +332,12 @@
   }
 
   .wrapper-main {
-    // background: url("https://iw233.cn/API/pc.php") center center / cover no-repeat
+    // background: url("https://iw233.cn/api.php?sort=pc") center center / cover no-repeat
     height 100vh
   }
 
   .wrapper-page {
-    //background: url("https://iw233.cn/API/pc.php") center center / cover no-repeat
+    //background: url("https://iw233.cn/api.php?sort=pc") center center / cover no-repeat
     height 28rem
     position relative
   }
