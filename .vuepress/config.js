@@ -87,32 +87,14 @@ module.exports = {
         "text": "Tag"
       }
     },
-    // "friendLink": [                    //友情链接
-    //   {
-    //     "title": "作者博客",
-    //     "desc": "zealsay说你想说",
-    //     "logo": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
-    //     "link": "https://blog.zealsay.com"
-    //   },
-    //   {
-    //     "title": "另一个博客",
-    //     "desc": "vuepress_blog",
-    //     "logo": "https://pan.zealsay.com/blog/logo.png",
-    //     "link": "https://www.zealsay.com"
-    //   },
-    //   {
-    //     "title": "午后南杂",
-    //     "desc": "Enjoy when you can, and endure when you must.",
-    //     "logo": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-    //     "link": "https://www.recoluan.com"
-    //   },
-    //   {
-    //     "title": "zealsay开发指南",
-    //     "desc": "zealsay轻应用脚手架开发指南",
-    //     "logo": "https://pic.zealsay.com/20190909225214850000000.jpg",
-    //     "link": "https://docs.zealsay.com"
-    //   }
-    // ],
+    "friendLink": [                    //友情链接
+      {
+        "title": "SuperChenの客栈",
+        "desc": "SuperChenの客栈",
+        "logo": "http://47.106.67.99/images/me.jpg",
+        "link": "http://47.106.67.99/"
+      }
+    ],
     "valineConfig": {
       "appId": "WoSytFuuSoIewSFIePDfUOXT-gzGzoHsz",// your appId
       "appKey": "Hhq39lX8v6S8Lo5JNuXu7cd0", // your appKey
