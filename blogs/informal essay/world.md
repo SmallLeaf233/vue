@@ -1,6 +1,6 @@
 ---
 title: 世界
-date: 2022-04-06
+date: 2022-07-06
 cover: https://s2.loli.net/2022/06/29/5j3DQtTqpC8diay.jpg
 tags:
  - 思考人生
