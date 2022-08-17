@@ -180,7 +180,7 @@ def run(self):
 ```
 
 窗口又无响应了<br>
-甚至我只是给一个函数赋值为`cmd.read()`都不行
+甚至我只是给一个函数赋值为`cmd.read()`都不行：
 
 ```python
 def run(self):
@@ -188,4 +188,31 @@ def run(self):
     test = cmd.read()
 ```
 
-这……
+这……<br>
+这个地方卡了我好久，我开摆了<br>
+就这么过了几天<br>
+我重新翻看frp的文档时发现，客户端的配置文件中有一个可选参数是`log_file`，可以将日志写入到指定的文件中<br>
+那么我再从文件中获取日志不就可以了？
+
+```python
+def run(self):
+    os.popen('frpc.exe')
+    time.sleep(0.5)  # 等待0.5秒
+    with open("frpc.log", "r") as f:
+        self.log = str(f.readlines()[-3:])  # 获取最新的三行
+        print(self.log)
+        if "[W]" in self.log:
+            os.system('taskkill /F /IM frpc.exe')
+            if "port already" in self.log:
+                messagebox.showerror("启动失败", "远程端口已被使用，请改用其他端口\n\n程序已禁用自选远程端口功能，请联系小叶子")
+            elif "proxy name" in self.log:
+                messagebox.showerror("启动失败", "隧道名称" + self.name.get() + "已被使用，请检查并更换一个隧道名称")
+            else:
+                messagebox.showerror("启动失败", "出现了没有预料的错误，请检查日志文件frpc.log，将日志文件发给小叶子")
+        else:
+            messagebox.showinfo("启动成功", "您的本地地址：" + self.ip.get() + ":" + self.port.get() +
+                                "已映射到服务器地址：[这里是服务器地址]:6001")
+
+```
+
+睡眠0.5秒是因为不等待一会的话，读取出来的依然是上次的日志
