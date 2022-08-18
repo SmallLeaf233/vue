@@ -157,13 +157,13 @@ module.exports = {
       }
     ],
     "covers": [
-      '/Atwk1.png',
-      '/Atwk2.png',
-      '/Atwk3.png',
-      '/Atwk4.png',
-      '/Atwk5.png',
-      '/Atwk6.png',
-      '/Atwk7.png',
+      'https://s2.loli.net/2022/08/18/xtfPzCR7OvaEXw8.png',
+      'https://s2.loli.net/2022/08/19/oaHkpsWg1RrwzBd.jpg',
+      'https://s2.loli.net/2022/08/19/EfIXnPOJA984Ggm.jpg',
+      'https://s2.loli.net/2022/08/18/Neu1JiSZIG6jHMl.png',
+      'https://s2.loli.net/2022/08/18/xgmNX9kUWiVCdTI.png',
+      'https://s2.loli.net/2022/08/18/ZTLOE3gXM2PhezJ.png',
+      'https://s2.loli.net/2022/08/18/Gr8Fv7McxsZ9DwN.png',
     ],
     "codeTheme": "tomorrow"
   },
