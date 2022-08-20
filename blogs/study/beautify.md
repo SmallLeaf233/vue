@@ -62,7 +62,7 @@ class Application(ttk.Frame):
         self.entryPort.pack()
 
         # 隧道名称
-        self.labelName = ttk.LabelFrame(self, text="隧道名称")
+        self.labelName = ttk.LabelFrame(self, text="隧道名称（只能为字母、数字和下划线）")
         self.labelName.grid(row=1, column=0, sticky=E)
         self.name = ttk.StringVar()
         self.entryName = ttk.Entry(self.labelName, textvariable=self.name, width=25, font=("黑体", 20), bootstyle="light")
@@ -101,7 +101,7 @@ class Application(ttk.Frame):
             self.remote.set(random.randint(6000, 6999))  # 随机数生成，服务器的端口我只开放了这个范围，应该够了
         with open("frpc.ini", "w") as f:
             list = ['[common]\n',
-                    'server_addr = 124.222.167.20\n',
+                    'server_addr = 这里是服务器地址\n',
                     'server_port = 7000\n',
                     'log_file = ./frpc.log\n',
                     'token = FrpJtks51zjscs\n'
@@ -119,7 +119,7 @@ class Application(ttk.Frame):
         with open("frpc.log", "r") as f:
             self.log = str(f.readlines()[-3:])
             if "[W]" in self.log:
-                os.system('taskkill /F /IM frpc.exe')
+                os.popen('taskkill /F /IM frpc.exe')
                 if "port already" in self.log:
                     messagebox.showerror("启动失败", "远程端口已被使用，请改用其他端口")
                 elif "proxy name" in self.log:
@@ -128,13 +128,12 @@ class Application(ttk.Frame):
                     messagebox.showerror("启动失败", "出现了没有预料的错误，请检查日志文件frpc.log，联系小叶子")
             else:
                 messagebox.showinfo("启动成功", "您的本地地址：" + self.ip.get() + ":" + self.port.get() +
-                                    "已映射到服务器地址：124.222.167.20:" + self.remote.get())
-        self.btn02 = ttk.Button(self, width=14, text="停止", bootstyle="danger", command=self.end)
+                                    "已映射到服务器地址：[这里是服务器地址]:" + self.remote.get())
+        self.btn02 = ttk.Button(self, width=14, text="停止", style='my.TButton', command=self.end)
         self.btn02.grid(row=3, column=0, sticky=E, pady=20)
 
     def end(self):
         os.popen('taskkill /F /IM frpc.exe')
-        messagebox.showerror("停止", "已结束frpc.exe进程")
         self.btn02 = ttk.Button(self, width=14, text="启动", style='my.TButton', command=self.run)
         self.btn02.grid(row=3, column=0, sticky=E, pady=20)
 
