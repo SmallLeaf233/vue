@@ -12,7 +12,7 @@ categories:
 
 # frp内网穿透
 
-一开始只是为了和朋友联机玩Minecraft，只是在github上把frp的压缩包下下来进行了最简单的配置
+一开始只是为了和朋友联机玩Minecraft，只是在github上把[frp](https://github.com/fatedier/frp)的压缩包下下来进行了最简单的配置
 
 服务端配置：
 

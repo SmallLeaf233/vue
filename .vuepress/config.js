@@ -89,10 +89,10 @@ module.exports = {
     },
     "friendLink": [                    //友情链接
       {
-        "title": "SuperChenの客栈",
-        "desc": "SuperChenの客栈",
-        "logo": "http://47.106.67.99/images/me.jpg",
-        "link": "http://47.106.67.99/"
+        "title": "SuperChen",
+        "desc": "SuperChen",
+        "logo": "http://blog.hh2022.cn/wp-content/uploads/2022/09/logo-scaled.jpg",
+        "link": "http://blog.hh2022.cn/"
       }
     ],
     "valineConfig": {

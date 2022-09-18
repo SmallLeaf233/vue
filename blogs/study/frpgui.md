@@ -181,7 +181,7 @@ def run(self):
 ```
 
 窗口又无响应了<br>
-甚至我只是给一个函数赋值为`cmd.read()`都不行：
+甚至我只是给一个变量赋值为`cmd.read()`都不行：
 
 ```python
 def run(self):
