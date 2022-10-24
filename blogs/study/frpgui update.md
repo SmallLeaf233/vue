@@ -54,3 +54,43 @@ def establish(self):
 ```
 
 大小写转换直接用`swapcase`函数就行
+
+## 2020年10月10日
+
+程序发给朋友测试的时候出了一点问题，似乎是程序卡住无法判断是否启动成功。怀疑是由于设备性能差异，frpc.log 文件还没生成就开始检测了。
+
+摆在我面前的有两个解决方案，一个是继续延长sleep时间，或是换一种能更快获取日志输出的方法，也就是优化。
+
+我选择了后者
+
+之前使用`.read()`获取输出时会导致阻塞，因为它是读取全部输出，而程序并未运行完毕。
+
+我需要一种获取实时输出的方式，于是我选择了`subprocess`模块，subprocess模块可以理解为os模块的升级版，可以实现os模块不能实现的功能，使用stdout.readline()就可以获得第一行的输出，那么执行三次就能获得三行的输出，fepc.exe的日志通常是三行的。我也有试图研究过能不能获取实时输出的方法，但最后还是有些问题。
+
+最后的代码是把
+
+```python
+def run(self):
+    os.popen('frpc.exe')
+    if os.path.exists("frpc.log"):
+        time.sleep(1)  # 睡眠0.5秒
+        with open("frpc.log", "r") as f:
+            self.log = str(f.readlines()[-3:])
+```
+
+改成了
+
+```python
+	self.text = ScrolledText(padding=10, height=6, autohide=True)
+    self.text.pack()
+
+...
+
+def run(self):
+    cmd = subprocess.Popen(["frpc.exe"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    time.sleep(0.1)  # 睡眠0.1秒,预防卡顿造成的意外
+    self.log = cmd.stdout.readline().decode() + cmd.stdout.readline().decode() + cmd.stdout.readline().decode()  # stdout.readline()读取一行  .decode()解码
+    self.text.insert(1.0, self.log)
+```
+
+增加了显示日志的功能

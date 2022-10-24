@@ -5,7 +5,7 @@ cover: https://s2.loli.net/2022/06/05/P1U3Ffwv9zWg8K4.jpg
 tags:
  - 数学
 categories:
- - 学习
+ - 笔记
 ---
 
 # **第一册**

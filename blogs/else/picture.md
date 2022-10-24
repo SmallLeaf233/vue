@@ -5,7 +5,7 @@ cover: https://s2.loli.net/2022/06/05/sILpj2oDmSTeYbt.png
 tags:
  - 学习
 categories:
- - 学习
+ - 其他
 ---
 
 # 图床

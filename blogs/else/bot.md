@@ -8,7 +8,7 @@ tags:
  - nonebot2
  - go-cqhttp
 categories:
- - 学习
+ - 其他
 ---
 
 # 关于QQ机器人
