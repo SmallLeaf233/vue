@@ -24,11 +24,11 @@ categories:
 
 5.然后我们需要下载黑客泄露出来的Novel AI模型`magnet:?xt=urn:btih:5bde442da86265b670a3e5ea3163afad2c6f8ecc&dn`
 
-6.在`stable-diffusion-webui\models`目录下新建`hypernetworks`文件夹，将第四步下载的文件中`modules`文件夹下的所有 .pt 文件拷贝到该文件夹下
+6.在`stable-diffusion-webui\models`目录下新建`hypernetworks`文件夹，将第五步下载的文件中`modules`文件夹下的所有 .pt 文件拷贝到该文件夹下
 
-7.将第四步下载的文件中的`animevae.pt`文件拷贝到`stable-diffusion-webui\models\Stable-diffusion`将其重命名为`model.vae.pt`
+7.将第五步下载的文件中的`animevae.pt`文件拷贝到`stable-diffusion-webui\models\Stable-diffusion`将其重命名为`model.vae.pt`
 
-8.第四步下载的文件中，所有的 .ckpt 文件都是模型文件，可以根据需求自行更改，这边推荐使用 *adimefull-final-pruned*  或者 *animefull-latest* ，将文件夹下的`model.ckpt`文件和`config.yaml`都拷贝到`stable-diffusion-webui\models\Stable-diffusion`即可
+8.第五步下载的文件中，所有的 .ckpt 文件都是模型文件，可以根据需求自行更改，这边推荐使用 *adimefull-final-pruned*  或者 *animefull-latest* ，将文件夹下的`model.ckpt`文件和`config.yaml`都拷贝到`stable-diffusion-webui\models\Stable-diffusion`即可
 
 9.双击`webui-user.bat`启动，开始安装依赖文件（可能需要梯子），下载过程没有进度条，请耐心等待
 
