@@ -103,16 +103,16 @@ module.exports = {
       "requiredFields": ['nick', 'mail'], //设置必填项
       // showComment: false
     },
-    "logo": "/logo.png",
+    "logo": "https://s2.loli.net/2022/11/05/YVI3G9Kg6ZNhmxQ.png",
     // "huawei": true, //首页出现华为文案
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "小叶子Small_leaf",
-    "authorAvatar": "/avatar.png",
-    "record": "你的备案号 ", //icp备案
+    "authorAvatar": "https://s2.loli.net/2022/11/05/GdYqVU6NEKPBLe1.png",
+    "record": "备案号是啥 能吃吗？ ", //icp备案
     "startYear": "2022",
-    "info": "这个人很懒，并没有写简介",
+    "info": "一个普通的高中生，喜欢整些花里胡哨的小玩意",
     "socials":{
       "github" : "https://github.com/SmallLeaf233", //github
       // "gitlub" : false, //gitlub
