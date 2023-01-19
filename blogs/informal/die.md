@@ -1,7 +1,7 @@
 ---
 title: 死亡
 date: 2022-09-11
-cover: https://s2.loli.net/2022/11/05/lvehbJRmVWCyGFS.png
+cover: https://s2.loli.net/2023/01/20/9PeyHSJbj8Bzdxi.png
 tags:
  - 往事
 categories:
