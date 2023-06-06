@@ -3,7 +3,7 @@ title: 图床
 date: 2022-04-02
 cover: https://s2.loli.net/2022/06/05/sILpj2oDmSTeYbt.png
 tags:
- - 学习
+ - 图床
 categories:
  - 其他
 ---

@@ -28,16 +28,23 @@ R = {数轴上所有点对应的数}&ensp;(实数集)
 ## 指数函数与对数函数
 
 ### 根式：
-$a^{-n}=\frac{1}{a^n}$
+
+$a^0=1(a\not=0)$ <br>
+$a^{-n}=\frac{1}{a^n}$ <br>
+$a^{m} \div a^{n}=a^{m} \cdot a^{-n}=a^{m-n}$<br>
+$(\frac{a}{b})^{n}=a^{n} \cdot b^{-n}=\frac{a^{n}}{b^{n}}$
 
 ### 分数指数幂：
+
+分母上是几就是开几次方，分子则是乘几次方
+
 $a^{\frac{m}{n}}=\sqrt[n]{a^m}$&ensp;&ensp;$(a^{\frac{1}{n}}=\sqrt[n]a)$<br>$a^{-\frac{m}{n}}=\frac{1}{a^\frac{m}{n}}$
 
 ### 有理数指数幂运算法则：
 $a^m\cdot a^n=a^{m+n}$<br>$(a^m)^n=a^{mn}$<br>$(ab)^n=a^n\cdot b^n$ 
 
 ### 对数：
-$a^b=N\Leftrightarrow\log_aN=b$&ensp;（可以理解为b和N互换了位置）<br>$\log_{10}N=\lg N$<br>$log_e N=ln N$&ensp;（e=2.71828……）
+$a^b=N\Leftrightarrow\log_aN=b$&ensp;（可以理解为b和N互换了位置，N把a踩扁了）<br>$\log_{10}N=\lg N$<br>$log_e N=ln N$&ensp;（e=2.71828……）
 
 **对数的运算法则：**<br>
 $\log_aMN=\log_aM+log_aN$<br>
@@ -54,7 +61,7 @@ $\log_8 9\times\log_{27}32=\frac{\lg9}{\lg8}\times\frac{\lg32}{\lg27}=\frac{2\lg
 ### 等差数列：
 **通项公式：**<br>
 $a_n=a_1+(n-1)d$ <br>
-**中项：**<br>
+**等差中项：**<br>
 $A=\frac{a+b}{2}$ <br>
 **前n项和公式：**<br>
 $S_n=\frac{n(a_1+a_n)}{2}$&ensp;（就是小学背过的：首项加末项乘以项数除以二）<br>
@@ -93,7 +100,7 @@ $S_n=\frac{a_1-a_nq}{1-q}$&ensp;(知道n时用这个公式)
 
 ### 向量的加减：
 加法：$\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$<br>
-减法：$\overrightarrow{OA}+\overrightarrow{OB}=\overrightarrow{BA}$<br>
+减法：$\overrightarrow{OA}-\overrightarrow{OB}=\overrightarrow{BA}$<br>
 **在坐标中**：<br>
 $a+b=(x_1+x_2,y_1+y_2)$<br>
 $a-b=(x_1-x_2,y_1-y_2)$<br>

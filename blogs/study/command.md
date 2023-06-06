@@ -3,10 +3,9 @@ title: 常用工具的使用
 date: 2023-04-12
 cover: https://s2.loli.net/2023/04/18/jJRpw3NnmIFPSq7.png
 tags:
- - frp
- - python
- - tkinter
- - ttkbootstrap
+ - ffmpeg
+ - git
+ - vim
 categories:
  - 学习
 ---
