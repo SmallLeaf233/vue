@@ -29,6 +29,29 @@ ffmpeg -i input.mp4 -c copy output.avi
 ## 2. 提取音频
 <br>
 
+首先查看音轨
+
+```
+ffmpeg -i input.mp4
+```
+
+在输出的最底下可以看到
+
+```
+Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 159 kb/s (default)
+```
+
+其中的`0:1`就是音轨，`aac`就是音频格式
+
+```
+ffmpeg -i input.mp4 -map 0:1 -c copy output.aac 
+```
+
+`-map`选泽音轨
+
+如果没有多音轨提取的需求，可以使用
+
+
 ```
 ffmpeg -i input.mp4 -vn output.mp3
 ```
@@ -57,7 +80,7 @@ ffmpeg -i input.mp4 -vf scale=320:240 output.mp4
 <br>
 
 ```
-ffmpeg -i input1.mp4 -i input2.mp4 -filter_complex "concat=n=2:v=1:a=1" output.mp4
+ffmpeg -i concat:"input1.mp4|input2.mp4|input3.mp4" -c copy output.mp4
 ```
 
 这个命令将两个视频文件合并成一个视频文件，并将结果保存为MP4格式。`-i` 选项指定输入文件，`-filter_complex` 选项指定过滤器复杂性。
@@ -78,6 +101,16 @@ ffmpeg -i input.mp4 -vf fps=1 output_%03d.png
 ```
 
 这个命令将从视频中提取每一秒的帧，并将它们保存为PNG格式。`-vf` 选项指定视频过滤器，`fps` 是设置帧率的过滤器名称，`1` 表示每秒提取一帧，`%03d` 是指定输出文件名的格式，其中 `%03d` 表示用3个数字表示帧序号。
+
+## 7. 去除去除音频静音
+
+<br>
+
+```
+ffmpeg -i input.aac -af silenceremove=stop_periods=-1:stop_duration=1:stop_threshold=-50dB output.aac
+```
+
+`stop_duration=1`是静音片段的长度，`stop_threshold=-50dB`是静音片段的阈值，似乎越高越不灵敏
 
 # Git
 
@@ -250,3 +283,14 @@ git merge --abort
 在**普通模式**下按 `/` 命令进入搜索模式，输入要搜索的字符串，按 `Enter` 键搜索<br>
 输入 `:%s/old/new/g` 命令将文件中所有的 old 替换为 new
 
+
+
+# 任务管理器
+
+电脑卡死了一片白怎么办？不要慌
+
+Ctrl + Alt + Dlelete 选择最底下的任务管理器，
+
+在任务管理器中选择 **运行新任务**
+
+输入`explorer.exe`，然后以系统管理权限创建此任务，点击确定，桌面就被重启了。
