@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "zeal",
   "scripts": {
-    "dev": "vuepress dev .",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && vuepress dev .",
     "build": "vuepress build .",
     "upcdn": "vuepress build . && node ./scripts/upcdn.js"
   },
@@ -21,5 +21,6 @@
     "aos": "^2.3.4",
     "vue-class-component": "^7.2.3"
   },
-  "description": "blog for zeal"
+  "description": "blog for zeal",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

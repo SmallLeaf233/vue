@@ -73,6 +73,8 @@ ffmpeg -i input.mp4 -ss 00:01:00 -t 00:00:30 output.mp4
 
 这个命令从视频的第1分钟开始裁剪30秒钟，并将结果保存为MP4格式。`-ss` 选项指定开始时间，`-t` 选项指定持续时间。
 
+如果想进行毫秒级的剪辑，则需要将时间的格式改成`00:00:00.00`
+
 ## 4. 调整视频大小
 <br>
 
@@ -118,7 +120,7 @@ ffmpeg -i input.mp4 -ss 00:12:34 -frames:v 1 output.jpg
 
 `-frames:v 1` 指定只输出一帧画面。
 
-## 7. 去除去除音频静音
+## 7. 去除音频静音
 
 <br>
 
@@ -127,6 +129,20 @@ ffmpeg -i input.aac -af silenceremove=stop_periods=-1:stop_duration=1:stop_thres
 ```
 
 `stop_duration=1`是静音片段的长度，`stop_threshold=-50dB`是静音片段的阈值，似乎越高越不灵敏
+
+
+
+### 8.调整音频音量
+
+<br>
+
+```
+ffmpeg -i input.mp4 -af "volume=0.5" output.mp4
+```
+
+`-af "volume=0.5"` 将音频音量降低到原音量的一半（0.5）。
+
+
 
 # <a name="Git"></a>Git
 
